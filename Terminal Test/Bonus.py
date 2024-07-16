@@ -49,7 +49,7 @@ class Bonus:
 if __name__ == "__main__":
     inputWord = input("> Choose a word (or RANDOM): ")
     if inputWord == "RANDOM":
-        df = pd.read_csv("combined.csv")
+        df = pd.read_csv("../Data/combined.csv")
         df_sample = df.sample()
         print(f"Category is {df_sample['Category'].iloc[0]}")
         myBonus = Bonus(df_sample['Answer'].iloc[0])
