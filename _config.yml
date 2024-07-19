@@ -1,4 +1,4 @@
-title: Wheel of Fortune Analysis
+title: null
 description: Analysis of the game show Wheel of Fortune
 url: "https://chengeric155.github.io/Wheel-of-Fortune-Analysis/"
 
@@ -6,7 +6,3 @@ author:
   name: Eric Cheng
 
 remote_theme: jekyll/minima
-
-minima:
-  social_links:
-    github: chengeric155
