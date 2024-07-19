@@ -1,2 +1,14 @@
-remote_theme: jekyll/minima
 title: Wheel of Fortune Analysis
+description: Analysis of the game show Wheel of Fortune
+url: "https://chengeric155.github.io/Wheel-of-Fortune-Analysis/"
+baseurl: "" # Only needed if your site is not at the root of the domain
+
+# Author settings
+author:
+  name: Eric Cheng
+
+remote_theme: jekyll/minima
+
+minima:
+  social_links:
+    github: chengeric155
