@@ -1,4 +1,7 @@
-# Wheel of Fortune Analysis
+---
+title: Wheel of Fortune Analysis
+description: Analysis of the game show Wheel of Fortune
+---
 
 Wheel of Fortune is an American game show where contestants guess hidden phrases
 by guessing letters one at a time. At the end of game, the contestant with the
