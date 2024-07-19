@@ -3,7 +3,8 @@ title: Wheel of Fortune Analysis
 description: Analysis of the game show Wheel of Fortune
 ---
 
-Wheel of Fortune is an American game show where contestants guess hidden phrases
+[Wheel of Fortune](https://en.wikipedia.org/wiki/Wheel_of_Fortune_(American_game_show)) 
+is an American game show where contestants guess hidden phrases
 by guessing letters one at a time. At the end of game, the contestant with the
 highest amount of money gets to play the bonus round, where a challenging 
 puzzle is presented with the letters `R`, `S`, `T`, `L`, `N`, and `E` are 
@@ -16,11 +17,17 @@ general case.
 
 ## Methodology
 This analysis took 3252 bonus puzzles (over 10 years) from the
-[Bonus Puzzle Compendium](https://www.angelfire.com/mi4/malldirectories/wheel/wheelbonus.html).
+[Bonus Puzzle Compendium](https://www.angelfire.com/mi4/malldirectories/wheel/wheelbonus.html)
+, where only puzzle data was considered. For each puzzle, we separated every
+character into a bag-of-words matrix. Non-letter characters such as whitespace
+and hypens were kept as they do not interfere with the analysis. We then conducted
+frequency analysis to find the most common letters in the matrix. In addition
+to frequency analysis, tf-idf was used to determine the most important letters
+for every puzzle, which is then aggregated to find the frequency of these letters.
 
 ## Frequency Analysis
 The bonus round puzzles follow a different distribution of letters than the
-typical distribution of letters in English.
+typical distribution of letters in [English](https://en.wikipedia.org/wiki/Letter_frequency).
 
 ![Game_vs_English_Frequency](assets/English_letter_frequency.png)
 
