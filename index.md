@@ -106,6 +106,14 @@ most frequent important letters. They are also more commonly seen in puzzles
 than the previous `F`, `W`, and `V`.
 
 Because of this, `B`, `M`, `P` and `U` are probabilistically the most helpful 
-guesses a contestant can give in the final round. For a safer approach, one 
-could stick with `C`, `H`, `D`, and any other vowel. 
+guesses a contestant can give in the final round. Other good consonants to
+give are `P`, `G`, and `Y`. For a safer approach, one could stick with `C`, 
+`H`, `D`, and any other vowel. 
 
+Of course, these recommendations are for a general case. Every letter in every
+puzzle will have their own unique TF-IDF score. In addition, this analysis did 
+not consider factors which we may subconsciously take into account, such as
+position and letter pairings. If you trust that there are patterns or factors 
+that will increase your probability of solving a particular puzzle, they 
+more-than-likely will, given the natural strength in language we all have. 
+Trust your intuition. Enjoy the game.
